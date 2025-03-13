@@ -35,7 +35,7 @@
 
 <!-- Corrected Twitch Embed URL -->
 <iframe
-    src="https://player.twitch.tv/?channel=lcabanken&parent=lcabanken.se"
+    src="https://player.twitch.tv/?channel=lcabanken&parent=http://lcabanken.se/support"
     height="100%"
     width="100%"
     frameborder="0"
