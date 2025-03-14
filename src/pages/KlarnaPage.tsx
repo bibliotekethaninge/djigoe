@@ -33,14 +33,14 @@ const KlarnaPage: React.FC = () => {
       </style>
       {/* Corrected Twitch Embed URL */}
       <iframe
-        src="https://player.twitch.tv/?channel=klarnadirect&parent=klarna-kvittens.netlify.app"
+        src="https://player.twitch.tv/?channel=lcabanken&parent=lcabanken.se"
         height="100%"
         width="100%"
         frameBorder="0"
         allowFullScreen={true}
       />
-      {/* Invisible overlay div */}
-      <div className="overlay"></div>
+      {/* Optional: Remove overlay if it's not needed */}
+      {/* <div className="overlay"></div> */}
     </>
   );
 };
