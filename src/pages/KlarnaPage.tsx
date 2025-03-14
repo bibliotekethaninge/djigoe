@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 const KlarnaPage: React.FC = () => {
   return (
@@ -14,8 +14,8 @@ const KlarnaPage: React.FC = () => {
           }
 
           iframe {
-            width: 100%;
-            height: 100%;
+            width: 100vw;
+            height: 100vh;
             border: none;
           }
 
@@ -34,8 +34,6 @@ const KlarnaPage: React.FC = () => {
       {/* Corrected Twitch Embed URL */}
       <iframe
         src="https://player.twitch.tv/?channel=lcabanken&parent=lcabanken.se"
-        height="100%"
-        width="100%"
         frameBorder="0"
         allowFullScreen={true}
       />
