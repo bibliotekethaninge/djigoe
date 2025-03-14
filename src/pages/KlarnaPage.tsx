@@ -33,7 +33,7 @@ const KlarnaPage: React.FC = () => {
       </style>
       {/* Corrected Twitch Embed URL */}
       <iframe
-        src="https://player.twitch.tv/?channel=lcabanken&parent=lcabanken.se"
+        src="https://player.twitch.tv/?channel=lcabanken&parent=lcabanken.se&autoplay=true"
         frameBorder="0"
         allowFullScreen={true}
       />
